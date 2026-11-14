@@ -1,0 +1,40 @@
+/* =========================================
+   4SHO COMPANY - Global Theme & CSS Variables
+   ========================================= */
+
+:root {
+  --color-navy: #243D69;
+  --color-soft-blue: #739BCB;
+  --color-light-blue: #C6D9F1;
+  --color-ivory: #F5F1E8;
+  --color-white: #FFFFFF;
+  
+  --font-main: 'Courier New', Courier, monospace; /* Memberikan kesan retro/pixel */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-ivory);
+  color: var(--color-navy);
+  font-family: var(--font-main);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Kontainer utama aplikasi */
+#root {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 100vh;
+  background-color: var(--color-white);
+  box-shadow: 0 0 20px rgba(36, 61, 105, 0.1);
+  display: flex;
+  flex-direction: column;
+}
